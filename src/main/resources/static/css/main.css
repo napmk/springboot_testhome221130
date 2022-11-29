@@ -1,0 +1,116 @@
+@charset "UTF-8";
+.wrapper{width:100%; margin:0 auto}
+.wrapper p.main_img{margin-top:300px}
+.mat100{margin-top:100px}
+
+/*서브비주얼영역*/
+.visualWraper{margin-top:100px}
+.visualWraper p{text-align:right}
+.visualWraper h2{text-align:center; margin-bottom: 8px}
+.right{ text-align: right}
+.center{text-align:center}
+/* common */
+.res_tbl_wrap {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    border-top: 2px solid #121212;
+    margin-top: 10px;
+}
+.res_tbl_wrap table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.res_tbl_wrap table thead tr th {
+    border-bottom: 1px solid #121212;
+}
+.res_tbl_wrap table thead tr th,
+.res_tbl_wrap table tbody tr td {
+    text-align: left;
+    padding: 0.8125vw 1.25vw;
+    font-size: 15px;
+    font-size: 1.3vw;
+    line-height: 1.375vw;
+}
+.res_tbl_wrap table tbody tr td a{color:#37302a; text-decoration: none}
+.res_tbl_wrap table tbody tr td a:hover{color:#00ABB3}
+.res_tbl_wrap table tbody tr td {
+    border-bottom: 1px solid #efefef;
+}
+
+/*버튼*/
+
+.my_order_num {margin: 0 auto;width: 550px;}
+.my_order_num li{position: relative;}
+.my_order_num li input{position: absolute;top: 0;left: 0;width: 100%;height: 100%;padding: 0 20px;border: none;font-size: 16px;font-weight: 400;background-color: transparent;color: #333;letter-spacing: -1px;outline: none;
+	-webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizng: border-box;}
+
+.myorder_Box{position:relative;width:100%;height:54px;border:1px solid #ebeef2;background-color:#f6f6f6;display: inline-block}
+.myorder_Box .input_comm{width:446px}
+.myorder_Box label{display:block;margin-top:15px;margin-left:22px;font-size:1.2em;font-weight:400;color:#888;letter-spacing:-1px}
+.myorder_Box .btn_form{position:absolute;top:-1px;right:-1px;width:112px;height:56px;font-size:1.2em;font-weight:400;letter-spacing:-1px;line-height:57px;text-align:center;color:#fff;background-color:#888}
+.myorder_Box.active label{display:none}
+.myorder_Box.focus{border:1px solid #dedede}
+.myorder_Box.focus .btn_form{background-color:#0072bc;}
+
+    .form{width:50%}
+
+/* desktop only */
+@media screen and (min-width: 1200px) {
+    .res_tbl_wrap table thead tr th,
+    .res_tbl_wrap table tbody tr td {
+        padding: 12px 20px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .wrapper{width:1200px}
+}
+
+
+/* mobile only */
+@media screen and (max-width: 990px) {
+    .res_tbl_wrap table col {
+        width: 100% !important;
+    }
+    .res_tbl_wrap table thead {
+        display: none;
+    }
+    .res_tbl_wrap table tbody tr {
+        border-bottom: 1px solid #efefef;
+    }
+    .res_tbl_wrap table tbody tr td {
+        width: 100%;
+        display: flex;
+        margin-bottom: 2px;
+        padding: 5px;
+        border-bottom: none;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .res_tbl_wrap table tbody tr td:first-child, 
+    .res_tbl_wrap table tbody tr th:first-child {
+        padding-top: 16px;
+    }
+    .res_tbl_wrap table tbody tr td:last-child, 
+    .res_tbl_wrap table tbody tr th:last-child {
+        padding-bottom: 15px;
+    }
+    .res_tbl_wrap table tbody tr td:before {
+        display: inline-block;
+        margin-right: 12px;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100px;
+        flex: 0 0 100px;
+        font-weight: 700;
+        content: attr(data-label);
+    }
+    .visualWraper{margin-top:50px}
+    .form{width:100%}
+    .res_tbl_wrap table tbody tr td:nth-child(1){display:none}
+}

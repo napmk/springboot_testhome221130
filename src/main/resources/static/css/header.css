@@ -1,0 +1,6 @@
+@charset "UTF-8";
+*{margin:0;padding:0;text-decoration:none}
+
+tr.headline01{ height: 50px; background: #333; padding-right:10px}
+tr.headline02{ height: 50px; }
+td.menu01{font-size:16px; color: #fff; font-family: Arial; text-align: center;}

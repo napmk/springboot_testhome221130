@@ -1,0 +1,8 @@
+@charset "UTF-8";
+table.board{font-size:20px}
+
+ th.board_title{ background-color: #999; border:1px solid #999; font-size:18px; color:#fff; height: 50px }
+ td.board_content{background-color: #fff; border:1px solid #eee; font-size:16px;  text-align: center;font-size:16px; height: 40px; padding: 5px 0 }
+ td.board_content02{background-color: #fff; border:1px solid #eee; font-size:16px;  text-align: left;font-size:16px;height: 40px ; padding: 5px 10px }
+ td.board_content02 a{ color:#000}
+  td.board_content02 a:hover{ color:#22A39F}

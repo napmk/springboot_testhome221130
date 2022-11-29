@@ -1,0 +1,9 @@
+@charset "UTF-8";
+.mt50{margin-top: 50px}
+span.title01{font-size:70px; color:#222;font-family: Arial; font-weight: bold;display: block;margin-bottom: 10px }
+span.title02{font-size:20px; color:#999;font-family: Arial; font-weight: bold; margin-bottom: 20px;height: 50px;display: block;}
+span.title03{font-size: 50px;  color:#22A39F;font-family: Arial;font-weight: bold}
+span.title04{font-size: 35px;  color:#999;font-family: Arial;font-weight: bold;}
+td.skillBox{background: #F3EFE0; padding:20px }
+td.picBox{text-align: center;}
+.center{text-align: center}
